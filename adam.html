@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC> <!--adams webpage-->
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Welcome to </title>
+		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
+	</head>
+	<body id="adamPageBody">
+		<div class="header">
+			<h1> <b> Form </b> </h1>
+		</div>
+		<div class="navBar">
+		<!--navbar with links to other pages-->
+			<nav> 
+				<a href="#">Item 1</a> |
+				<a href="#">Item 2</a> |
+				<a href="#">Item 3</a> |
+				<a href="#">Item 4</a> |
+				<a href="#">Item 5</a> |
+				<a href="#">Item 6</a> |
+			</nav>
+		</div> 
+		<!--DIV with paragraph to inform the user-->
+		<div id="adamDPinfo">
+			<p> Please fill in the following, if you wish to be added to our newsletter, give us your information >:) </p>
+		</div>
+		<!--DIV with form for the user to submit info -->
+		<div id="adamform">
+			<form onsubmit="return validate()">
+				Firstname: <input type="text" id="fn"><br><br>
+				Surname: <input type="text" id="sn"><br><br>
+				Age: <input type="number" id="cn"><br><br>
+				Email: <input type="text" id="bn"><br><br>
+				Mrs <input type="radio" id="rn" name="radioBtn"> Mr <input type="radio" id="rn" name="radioBtn"> Dr <input type="radio" id="rn" name="radioBtn"><br><br>
+				Have you done all the things above? <input type="checkbox" id="dn" required=""><br><br>
+				<input type="submit" value="Submit form">
+			</form>
+			<p id="msge"> </p>
+		</div>
+		<div class="footer">
+		<!--This will be a stickied footer-->
+			<footer>
+			<p>Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer </p>
+			<p>
+			<a href="https://www.freepik.com/free-photo/white-marble-texture-pattern-with-high-resolution_16791684.htm#query=orange%20pattern&position=1&from_view=keyword">Image by benzoix</a> on Freepik
+			</p>
+			</footer>
+		</div>
+	</body>
+</html>

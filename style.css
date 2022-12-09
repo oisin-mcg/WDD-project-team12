@@ -1,0 +1,114 @@
+/*universal Css for nav footer and header//oisin*/
+
+#homePagebody{
+	background-color: white;
+	color: black;
+	margin-bottom: 0;
+	border-style: solid;
+	border-color: red;
+	background-image: url("background.jpg");
+}
+
+.header{
+	background-color: #F17100;
+	height: 100px;
+	padding-left: 17px;;
+	font-size: 32px;
+	text-align: center;
+}
+.navBar{
+	background-color: #F18B00;
+	padding:5px;
+	height: 34px;
+	text-align: right;
+	padding-top: 17px;
+	padding-left: 17px;
+}
+
+.subHeader{
+	font-size: 35px;
+}
+
+.mainContent{
+height: 70%;
+padding: 15px;
+margin: 0px;
+}
+
+.footer{
+	background-color: #F1A100;
+	color: white;
+	position: fixed;
+	height: 175px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+--------------------------------------------------
+/*CSS for oisin blog//oisin*/
+--------------------------------------------------
+	#oisinPagebody{
+		background-color: white;
+		color: black;
+		margin-bottom: 0;
+		border-style: solid;
+		border-color: red;
+		background-image: url("background.jpg");
+	}
+
+		.oSubHeader{
+			font-size: 35px;
+		}
+		
+		
+		.sidebar{
+			background-color: C28C00;
+			height: 880px;
+			width: 10%;
+			float: left;
+			padding: 15px;
+			padding-top: 0px;
+			background-image: url("sidebarBackground.jpg");
+		}
+
+		.mainContent{
+			height: 70%;
+			padding: 15px;
+			margin: 0px;
+		}
+
+		#cover{
+			height: 100%;
+			filter: blur(8px);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		
+--------------------------------------------------
+/*CSS for adam blog//adam*/
+--------------------------------------------------
+#adamform{
+	border: 1px solid black;
+	text-align: center;
+	padding: 15px;
+}
+#adamDPinfo{
+	border: 1px solid black;
+	text-align: center;
+	font-size: 15px;
+	background-color: #FFAA36;
+	margin: 1px;
+	color: white;
+}
+#adamPagebody{
+	background-color: white;
+	color: black;
+	margin-bottom: 0;
+	background-image: url("background.jpg");
+}
+
+--------------------------------------------------
+/*CSS for dymtro blog//dymtro*/
+--------------------------------------------------
