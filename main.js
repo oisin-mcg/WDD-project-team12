@@ -5,19 +5,19 @@
                 var msge = "You have not fully completed the form, ";
                 //use if statements to check the data and set the message 
                 if(document.getElementById("fn").value == ""){
-                    msge += "Firstname ";
+                    msge += "You need to fill in your Firstname. ";
                     valid = false;
                 }
                 if(document.getElementById("sn").value == ""){
-                    msge += "Surname. ";
+                    msge += "You need to fill in your Surname. ";
                     valid = false;
                 }
                 if(document.getElementById("cn").value == ""){
-                    msge += "age. ";
+                    msge += "You need to fill in your age. ";
                     valid = false;
                 }
 				if(document.getElementById("bn").value == ""){
-                    msge += " email, aswell as your title. ";
+                    msge += "You need to fill in your email, aswell as your title. ";
                     valid = false;
                 }
                 if(!valid){ //!valid is the same as valid == false
