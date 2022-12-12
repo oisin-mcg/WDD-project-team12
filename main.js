@@ -17,11 +17,7 @@
                     valid = false;
                 }
 				if(document.getElementById("bn").value == ""){
-                    msge += "You need to fill in your email, aswell as your title. ";
-                    valid = false;
-                }
-				if(document.getElementById("comments").value == ""){
-                    msge += "You need to fill in a inquiry to proceed. ";
+                    msge += "You need to fill in your email.";
                     valid = false;
                 }
                 if(!valid){ //!valid is the same as valid == false

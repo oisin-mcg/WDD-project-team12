@@ -1,6 +1,6 @@
 /*universal Css for nav footer and header//oisin*/
 
-#homePagebody{
+.homePagebody{
 	background-color: white;
 	color: black;
 	margin-bottom: 0;
@@ -43,6 +43,7 @@ margin: 0px;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	text-align: center;
 }
 --------------------------------------------------
 /*CSS for oisin blog//oisin*/
@@ -90,33 +91,52 @@ margin: 0px;
 /*CSS for adam blog//adam*/
 --------------------------------------------------
 #aForm{
-	position: absolute;
-	right: 100px;
-	bottom: 10px;
+	position: absolute; /* this DIV has been removed completely, why it's here is if I remove the style it affects a completely different DIV (adamDPinto) */
+	right: 100px; /* I think it's due to the DOCTYPE not having html beside it, lot of bugs including quirk mode, that I couldn't fix */
+	bottom: 10px; /* not a mistake */
 }
 #adamDPinfo{
-	border: 1px solid black;
-	text-align: center;
-	font-size: 15px;
-	background-color: #FFAA36;
-	margin: 1px;
-	color: Black;
+	border: 1px solid black; /* adds a border to the DIV tag highlighting the space it takes up */
+	text-align: center; /* centers anything in the targeted DIV */
+	font-size: 15px; /* changes writing size */
+	background-color: #FFAA36;  /* Hex values (#) can get the specific color of choice that you want to use for your web browser, */
+	margin: 1px; /* adds space between the DIV and the web brower */
+	color: Black; /* adds color to the writing in the targeted DIV */
+	font-family: "Abel";
 }
 #adamPagebody{
-	background-color: white;
-	color: black;
+	background-color: white; 
+	color: black; 
 	margin-bottom: 0;
-	background-image: url("background.jpg");
+	background-image: url("background.jpg");  /* adds background picture to the webpage instead of a static colour */
+	font-family: "Abel"; /* allows the link to change the website font */
 }
 #container{
-	width: 100%;
+	width: 99.5%; /* using % makes the webpage more responisve and phone and tablet friendly */
 	height: 50%;
-	border: 2px solid #FFBC36;
 	text-align:center;
-	padding: 1px;
-	
+	padding: 1px;  /* adds space between the writing and the DIV */
+	font-family: "Abel";
+	border-radius: 1px; /* rounds the corners of the input box */
+	font-size: 15px;
+	padding: 0.5px; /* using decimals to get a precise placement */
 }
-
+#aheader{
+	background-color: #F17100;
+	height: 100px;
+	padding-left: 17px;;
+	font-size: 32px;
+	text-align: center;
+	font-family: "Teko"; /* allows the link to change the website font */
+}
+::placeholder{
+	color: grey; /* Tells the placeholder in the html document what color to be */
+}
+#alogo{
+	position: absolute;
+	left: 5%;
+	top: 1.3%;
+}
 --------------------------------------------------
 /*CSS for dymtro blog//dymtro*/
 --------------------------------------------------

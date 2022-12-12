@@ -1,17 +1,19 @@
-<!DOCTYPE html PUBLIC> <!--adams webpage-->
-<html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<title> Peak Learning </title>
-		<link rel="stylesheet" href="style.css">
-		<script src="main.js"></script>
+<!DOCTYPE html PUBLIC> <!--adams webpage + form -->
+<html lang="en"> <!-- this tells the web browser to load in english -->
+	<head> <!-- this is a head tag, it stores vital information about the website/webpage -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"> <!-- this is a meta tag, meta tags store information about information -->
+		<title> Peak Learning </title> <!-- this is a title, it defines the title of the document -->
+		<link rel="stylesheet" href="style.css"> <!-- this link enables HTML and CSS eternal files to communicate with one another (basically they speak to each other) -->
+		<script src="main.js"></script> <!-- this link enables HTML and JS eternal files to communicate with one another (basically they speak to each other) -->
+		<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet"> <!-- (Teko) font for the Head/title of the webpage -->
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Teko&display=swap" rel="stylesheet"> <!-- (Abel) font for the main body writing of the webpage -->
 	</head>
-	<body id="adamPageBody">
-		<div class="header">
-			<h1> <b> Contact Form </b> </h1>
+	<body id="adamPageBody"> <!-- this is the body tag, this is where information gets diplayed to the webpage, so the user can use and look at the webpage features you had coded --> 
+		<div id="aheader">  
+			<h1> <b> Contact Form </b> </h1> <!-- this is a h1 tag, you can choose different sizes of h tags h1 being the biggest and h6 being the smallest -->
 		</div>
 		<div class="navBar">
-		<!--navbar with links to other pages-->
+		<!--this is a navbar with links to other pages, the user can click through these links to go to different parts of a webpage-->
 			<nav> 
 				<a href="#">Item 1</a> |
 				<a href="#">Item 2</a> |
@@ -21,34 +23,32 @@
 				<a href="#">Item 6</a> |
 			</nav>
 		</div> 
-		<!--DIV with paragraph to inform the user-->
+		<!--DIV with paragraph to inform the user, DIV tags divide a section of a page to be able to be manipulated by an external source (example CSS) -->
 		<div id="adamDPinfo">
 			<p> Please fill in the following, if you wish to contact us about any inquiries. </p>
 		</div>
-		<!--DIV with form for the user to submit info -->
+		<!--DIV with form for the user to submit info/questions or inquiries-->
 		<div id="container">
 			
 				<form onsubmit="return validate()">
-					Firstname: <input type="text" id="fn"><br><br>
-					Surname: <input type="text" id="sn"><br><br>
-					Age: (Optional) <input type="number" id="cn"><br><br>
-					Email: <input type="text" id="bn"><br><br>
-					Mrs <input type="radio" id="rn" name="radioBtn"> Mr <input type="radio" id="rn" name="radioBtn"> Dr <input type="radio" id="rn" name="radioBtn"><br><br>
-					<textarea name="comments" id="comments"> Write your inquiries here. </textarea><br><br>
-					Have you done all the things above? <input type="checkbox" id="dn" required=""><br><br>
+					Firstname: <input type="text" id="fn" placeholder="Walter"><br><br> <!--input tags allow user to input some type of date, the type of data is assigned using the "type=" attribute -->
+					Surname: <input type="text" id="sn" placeholder="White"><br><br>
+					Age: <input type="number" id="cn" placeholder="52"><br><br><!-- imput number box-->
+					Email: <input type="text" id="bn" placeholder="walterwhite@gmail.com"><br><br> <!-- input text box, for emails-->
+					(Optional) Mrs <input type="radio" id="rn" name="radioBtn"> Mr <input type="radio" id="rn" name="radioBtn"> Dr <input type="radio" id="rn" name="radioBtn"><br><br> <!--these are radio buttons, they can be assigned in a group so you can only choose one-->
+					<textarea placeholder="Write your inquiries here." name="comments" id="comments"></textarea><br><br> <!-- this is where the user write the inquiries and a placeholder, has text show on a text box until someone writes something-->
+					Have you done all the things above? <input type="checkbox" id="dn" required=""><br><br> <!-- checkbox attribute with a required attribute set in order to make the user proceed after ackowledging what it asks --> 
 					
-					<input type="submit" value="Submit form">
+					<input type="submit" value="Submit form"><!-- user can click the submit button to input the data they wrote, manipulating the DOM -->
 				</form>
-				<p id="msge"> </p>
+				<p id="msge"> </p> <!-- Once the user inputs the data, it checks if everything was -->
 			
 		</div>
+		<div id="alogo"> <img src="logo.jpg" width="99" Height="99"> </div> <!-- image link allowing a picture to be displayed for the logo -->
 		<div class="footer">
-		<!--This will be a stickied footer-->
+		<!--This is the footer tag, it is always at the bottem of a webpage, it can contain anything you want but typically contains conact information -->
 			<footer>
-			<p>Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer </p>
-			<p>
-			<a href="https://www.freepik.com/free-photo/white-marble-texture-pattern-with-high-resolution_16791684.htm#query=orange%20pattern&position=1&from_view=keyword">Image by benzoix</a> on Freepik
-			</p>
+			<p> WDD group 12 <sup> © </sup></p> <!-- sup tags make the text a little higher, while <sub> tags make the text a little lower--> 
 			</footer>
 		</div>
 	</body>
