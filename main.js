@@ -20,6 +20,10 @@
                     msge += "You need to fill in your email, aswell as your title. ";
                     valid = false;
                 }
+				if(document.getElementById("comments").value == ""){
+                    msge += "You need to fill in a inquiry to proceed. ";
+                    valid = false;
+                }
                 if(!valid){ //!valid is the same as valid == false
                     document.getElementById("msge").innerHTML = msge;
                 }
