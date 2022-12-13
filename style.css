@@ -130,7 +130,7 @@ margin: 0px;
 	font-family: "Teko"; /* allows the link to change the website font */
 }
 ::placeholder{
-	color: grey; /* Tells the placeholder in the html document what color to be */
+	color: lightgrey; /* Tells the placeholder in the html document what color to be */
 }
 #alogo{
 	position: absolute;
